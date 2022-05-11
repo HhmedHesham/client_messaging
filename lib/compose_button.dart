@@ -19,7 +19,7 @@ class ComposeButton extends StatelessWidget {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text('Your message has been sent with $intention'),
-            backgroundColor: Colors.purple,
+            // backgroundColor: Colors.purple,
           ),
         );
       },

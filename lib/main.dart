@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'message_list.dart';
+import 'package:message_client/app.dart';
 
 void main() {
   runApp(const ClientMessaging());
@@ -14,9 +13,9 @@ class ClientMessaging extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
       ),
-      home: MessageList(title: 'Client Messaging'),
+      home: const App(),
     );
   }
 }
